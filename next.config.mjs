@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: ".next-fecolutta",
+  distDir: process.env.VERCEL === "1" ? ".next" : ".next-fecolutta",
   images: {
     unoptimized: true,
   },

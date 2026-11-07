@@ -1,5 +1,9 @@
 # FECOLUTTA - validation et point de reprise
 
+## Sortie de build Vercel - 7 novembre 2026
+
+Vercel attend le dossier Next standard `.next`. FECOLUTTA conserve son cache local isole `.next-fecolutta`, mais utilise `.next` lorsque `VERCEL=1` pour que la plateforme trouve la sortie du build.
+
 ## Lot 1 : listes territoriales, 7 novembre 2026
 
 Parcours : session FECOLUTTA autoris?e -> Ligues, Ententes, Clubs -> lecture Sheets -> tableau/recherche/filtres/pagination. Livrer ce point de contr?le avant les formulaires. ?tat actuel : lecture r?elle confirm?e par connecteur et interface valid?e sur sa capture ; connexion applicative compl?te encore bloqu?e (voir ci-dessous).
